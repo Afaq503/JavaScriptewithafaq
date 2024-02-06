@@ -1,7 +1,7 @@
 console.log(2>1);
 console.log(2>=1);
 
-// clean cod
+// clean code avoid this compersion
 console.log("2">=1);
 console.log("02">=1);
 

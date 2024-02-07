@@ -33,3 +33,27 @@ const myFunction =function() {
 }
 
 console.log(typeof bigNumber);
+
+
+// -----------------------------------------------
+
+// Stack (Primirive), Heap (Non-Primitive)
+
+let myName = 'Afaq'
+
+let anotherName = myName;
+anotherName = 'Codewithafaq'
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email: 'user1@google.com',
+    id:1
+}
+let userTwo = userOne;
+
+userTwo.email = "MAfaq@google.com"
+
+console.log(userOne);
+console.log(userTwo);

@@ -13,6 +13,24 @@ for (const greet of greetings) {
 
 
 // Maps
-
 const map = new Map()
-map
+map.set('PK','Pakistan')
+// map.set('PK','Pakistan')
+map.set('IN','India')
+map.set('PHL','Phalestain')
+
+// console.log(map);
+
+for (const [key, value] of map) {
+    console.log(key, ':-',value);
+}
+
+const myObject = {
+    'Game1':"NFS",
+    'Game2':"GTA"
+}
+
+// for (const [key, value] of myObject) {
+//     console.log(key, ":-", value);
+    
+// }
